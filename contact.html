@@ -33,14 +33,14 @@
             <form id="contact-me-form">
                 <!-- adding in inputs for fname, lname, email, reason for contact -->
                 <div class="intro-header">First Name:</div>
-                <input class="contactinput" type="text" placeholder="John"/>
+                <input class="contactinput" type="text" placeholder="John" id="first-name-input"/>
                 <div class="intro-header">Last Name:</div>
-                <input class="contactinput" type="text" placeholder="Doe"/>
+                <input class="contactinput" type="text" placeholder="Doe" id="last-name-input"/>
                 <div class="intro-header">Email:</div>
-                <input class="contactinput" type="email" placeholder="johndoe@xyz.com"/>
+                <input class="contactinput" type="email" placeholder="johndoe@xyz.com" id="email-input"/>
                 <div class="intro-header">Reason for contact:</div>
-                <textarea class="contactinput" type="text" placeholder="Hello..."></textarea>
-                <div><input id="contact-me-button" type="submit"/></div>
+                <textarea class="contactinput" type="text" placeholder="Hello..." id="reason-input"></textarea>
+                <div><input id="contact-me-button" type="submit" onclick="validateForm()"/></div>
             </form>
         </div>
         <div style="display: flex; flex-direction: column;">
