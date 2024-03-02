@@ -1,0 +1,65 @@
+<!-- ctrl + ? for comment -->
+<!-- Barebones html index creation -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- importing gruppo font for style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <!-- creating head information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- creating css and index.js relationships -->
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Josh Tymorek Web Dev Project</title>
+</head>
+<body class="hometext">
+    <nav> 
+        <ul> 
+            <!-- Creating the navigation bar -->
+            <li class="active-page"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="welcome">
+        <!-- adding in welcome page to website and picture -->
+        <!-- <img src="ksu.jpg" alt="Pic of KSU with Cherry Trees" id="ksutrees"/> -->
+        <!-- adding in the element for text over the ksu image -->
+        <div class="welcometextoverimage">Welcome to My Website</div>       
+    </div>
+    <div style="margin: 10px 400px">
+        <div id="home-intro">
+            <div class="intro-item">
+                <!-- adding in my time at ksu block -->
+                <h3 class="intro-header">My time at KSU</h3>
+                <p>
+                    I must say that I have thoroughly enjoyed my time at KSU, even though
+                    <!-- <br/> in case i need to start a new paragraph-->
+                    I have been earning my degree online only. I would say that I have missed out 
+                    on some experiences, but my experience has still been enjoyable.
+                </p>
+            </div>
+            <div class="intro-item" id="ksu-div">
+                <!-- adding in image of myself for the welcome page within the same block -->
+                <img src="ksulogo.png" alt="KSU Logo" id="ksulogo"/>
+            </div>
+            <div class="intro-item">
+                <!-- adding in block for classes -->
+                <h3 class="intro-header">The classes I've enjoyed the most</h3>
+                <p>Personally, I would have to say that I have enjoyed my programming classes and my capstone class, Cyber Defense, the most. 
+                    This class will surely be up there by the time I graduate because it has given me even more programming experience outside of the tutoring and udemy courses that I have been completing.
+                </p>
+            </div>
+        </div>
+        <div id="home-degree">
+            <!-- adding in block for degree information -->
+            <h3 class="intro-header">Information About My Degree</h3>
+            <p>I am a Senior working on graduating at the end of this semester with a bachelors degree in Cybersecurity and a minor in IT.</p>
+        </div>
+    </div>
+</body>
+</html>

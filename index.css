@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/*
+making colors
+*/
+nav {
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(78,12,120,1) 35%, rgba(0,212,255,1) 100%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style-type: none;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+/* setting color of pages */
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(78,12,120,1) 35%, rgba(0,212,255,1) 100%);
+}
+/* welcome page text */
+.welcome {
+    text-align: center;
+    color: #00ecfb;
+}
+/* pairing the image and text together */
+.welcometextoverimage {
+    font-size: 100px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #00ecfb;
+    text-shadow: 4px 4px 4px black;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    padding: 300px;
+    background: center / cover no-repeat url(ksu.jpg);
+}
+/* setting the navbar to highlight which page the user is currently on */
+.active-page {
+    background-color: #26039a;
+    color: white;
+}
+.hometext {
+    font-style: normal;
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+
+li:hover {
+    background: #00ecfb;
+}
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+#ksulogo {
+    width: 100px;
+    height: 100px;
+}
+#ksutrees {
+    width: 100%;
+    height: 870px;
+    object-fit: cover;
+    
+}
+.contactinput {
+    font-size: 14px;
+}
+
+#selfie {
+    width: 300px;
+}
+
+.aboutmetext {
+    color: white;
+}
+.contacttext {
+    color: white;
+}
+
+#home-intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+.intro-item {
+    background: rgba(229, 193, 193, 0.746);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+#ksu-div {
+    flex-grow: 0;
+    flex-basis: auto;
+}
+.intro-header {
+    font-weight: 1000;
+}
+
+#home-degree {
+    background: rgba(229, 193, 193, 0.746);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#about-me-title {
+    font-size: 100px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #00ecfb;
+    text-shadow: 4px 4px 4px black;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    padding: 300px 0px;
+    width: 100%;
+    text-align: center;
+    background: center / cover no-repeat url(computer.jpg);
+}
+
+#about-me-text {
+    margin: 10px 400px;
+    display: flex;
+    justify-content: center;
+}
+
+#about-me-intro {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#about-me-img {
+    background: rgba(229, 193, 193, 0.746);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.about-me-item {
+    background: rgba(229, 193, 193, 0.746);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+#contact-me-header {
+    font-size: 100px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #00ecfb;
+    text-shadow: 4px 4px 4px black;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    padding: 300px 0px;
+    width: 100%;
+    text-align: center;
+    background: center / cover no-repeat url(contactme.jpg);
+}
+
+#contact-me-text {
+    margin: 10px 400px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact-me-form {
+    background: rgba(229, 193, 193, 0.746);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contact-me-item {
+    background: rgba(229, 193, 193, 0.746);
+    border: 1px solid black;
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+#contact-me-button {
+    cursor: pointer;
+}

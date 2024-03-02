@@ -1,0 +1,60 @@
+<!-- ctrl + ? for comment -->
+<!-- Barebones html contact creation -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- importing gruppo font for style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- creating css and index.js relationships -->
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Josh Tymorek Web Dev Project</title>
+</head>
+<body class="hometext">
+    <nav> 
+        <ul> 
+            <!-- Creating the navigation bar -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active-page"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div>
+        <!-- New page for contact -->
+        <h1 id="contact-me-header">Contact</h1>
+    </div>
+    <div id="contact-me-text">
+        <div>
+            <form id="contact-me-form">
+                <!-- adding in inputs for fname, lname, email, reason for contact -->
+                <div class="intro-header">First Name:</div>
+                <input class="contactinput" type="text" placeholder="John"/>
+                <div class="intro-header">Last Name:</div>
+                <input class="contactinput" type="text" placeholder="Doe"/>
+                <div class="intro-header">Email:</div>
+                <input class="contactinput" type="email" placeholder="johndoe@xyz.com"/>
+                <div class="intro-header">Reason for contact:</div>
+                <textarea class="contactinput" type="text" placeholder="Hello..."></textarea>
+                <div><input id="contact-me-button" type="submit"/></div>
+            </form>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="contact-me-item">
+                <!-- adding in student email sub-block -->
+                <h3 class="intro-header">Student Email</h3>
+                <p><a href="mailto:jtymorek@students.kennesaw.edu">Link to Email</a></p>
+            </div>
+            <div class="contact-me-item">
+                <!-- adding in github sub-block -->
+                <h3 class="intro-header">Github</h3>
+                <p><a href="https://github.com/Josh0177">Link to Github</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
